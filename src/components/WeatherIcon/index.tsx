@@ -27,25 +27,25 @@ export default function WeatherIcon({iconType, style}:Props) {
         case '02n':
             icon = Icon02n
             break;
-        case '03d':
+        case '03d' || '03n':
             icon = Icon03d
             break;
-        case '04d':
+        case '04d' || '04n':
             icon =Icon04d
             break;
-        case '09d':
+        case '09d' || '09n':
             icon =Icon09d
             break;
-        case '10d':
+        case '10d'  || '10n':
             icon = Icon10d
             break;
-        case '11d':
+        case '11d'  || '11n':
             icon = Icon11d
             break;
-        case '13d':
+        case '13d'  || '13n':
             icon = Icon13d
             break;
-        case '50d':
+        case '50d'  || '50n':
             icon = Icon50d
             break;
     }
