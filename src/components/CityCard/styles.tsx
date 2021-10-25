@@ -67,13 +67,13 @@ const styles = StyleSheet.create({
     },
 
     aqius: {
-      fontSize: 30,
+      fontSize: 25,
       color: '#fff',
       fontWeight: 'bold'
     },
 
     cityRank: {
-      fontSize: 20,
+      fontSize: 15,
       fontWeight: 'bold',
       color: '#fff',
     },
@@ -87,7 +87,6 @@ const styles = StyleSheet.create({
     },
 
     qualityAirString: {
-      
       fontSize: 15,
       fontWeight: 'bold',
       color: '#fff',
