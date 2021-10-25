@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { Image } from 'react-native';
-import { Icon01d, Icon01n, Icon02d, Icon02n, Icon03d, Icon04d, Icon09d, Icon10d, Icon11d, Icon13d, Icon50d } from '../../images'
+import { Icon01d, Icon01n, Icon02d, Icon02n, Icon03d, Icon04d, Icon09d, Icon10d, Icon10n, Icon11d, Icon13d, Icon50d } from '../../images'
 
 
 interface Props {
@@ -58,7 +58,7 @@ export default function WeatherIcon({iconType, style}:Props) {
             icon =Icon09d
             break;
         case '10n':
-            icon = Icon10d
+            icon = Icon10n
             break;
         case '11n':
             icon = Icon11d
