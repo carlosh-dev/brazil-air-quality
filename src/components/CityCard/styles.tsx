@@ -62,6 +62,7 @@ const styles = StyleSheet.create({
     },
 
     labelQualityAir: {
+      fontSize: 10,
       color: "#fff",
       textAlign: 'center'
     },
@@ -83,14 +84,13 @@ const styles = StyleSheet.create({
       alignItems: 'center',
       borderRadius: 99,
       height: 20,
-      width: 70,
+      width: 90,
     },
 
     qualityAirString: {
-      fontSize: 15,
+      fontSize: 12,
       fontWeight: 'bold',
       color: '#fff',
-      
     },
 
   });
